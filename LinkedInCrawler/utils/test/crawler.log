@@ -1,0 +1,56 @@
+[2023-11-29 22:14:33.979602] [ERROR] in raiseException function | args: (1,) | kwargs: {} | error: invalid parameters 
+-------------------------------------
+[2023-11-30 10:05:39.140175] [ERROR] in getEducations function | args: ('https://www.linkedin.com/in/emami-owl-9a691086', <selenium.webdriver.chrome.webdriver.WebDriver (session="b790538b167e0c83847a64bd8d786c43")>) | kwargs: {} | error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.161)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE8B82B2+55298]
+	(No symbol) [0x00007FF6CE825E02]
+	(No symbol) [0x00007FF6CE6E05AB]
+	(No symbol) [0x00007FF6CE6C0038]
+	(No symbol) [0x00007FF6CE746BC7]
+	(No symbol) [0x00007FF6CE75A15F]
+	(No symbol) [0x00007FF6CE741E83]
+	(No symbol) [0x00007FF6CE71670A]
+	(No symbol) [0x00007FF6CE717964]
+	GetHandleVerifier [0x00007FF6CEC30AAB+3694587]
+	GetHandleVerifier [0x00007FF6CEC8728E+4048862]
+	GetHandleVerifier [0x00007FF6CEC7F173+4015811]
+	GetHandleVerifier [0x00007FF6CE9547D6+695590]
+	(No symbol) [0x00007FF6CE830CE8]
+	(No symbol) [0x00007FF6CE82CF34]
+	(No symbol) [0x00007FF6CE82D062]
+	(No symbol) [0x00007FF6CE81D3A3]
+	BaseThreadInitThunk [0x00007FFC1A26257D+29]
+	RtlUserThreadStart [0x00007FFC1A7CAA58+40]
+ 
+-------------------------------------
+[2023-11-30 10:05:39.152658] [ERROR] in getSkills function | args: ('https://www.linkedin.com/in/emami-owl-9a691086', <selenium.webdriver.chrome.webdriver.WebDriver (session="b790538b167e0c83847a64bd8d786c43")>) | kwargs: {} | error: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.161)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6CE8B82B2+55298]
+	(No symbol) [0x00007FF6CE825E02]
+	(No symbol) [0x00007FF6CE6E05AB]
+	(No symbol) [0x00007FF6CE6C0038]
+	(No symbol) [0x00007FF6CE746BC7]
+	(No symbol) [0x00007FF6CE75A15F]
+	(No symbol) [0x00007FF6CE741E83]
+	(No symbol) [0x00007FF6CE71670A]
+	(No symbol) [0x00007FF6CE717964]
+	GetHandleVerifier [0x00007FF6CEC30AAB+3694587]
+	GetHandleVerifier [0x00007FF6CEC8728E+4048862]
+	GetHandleVerifier [0x00007FF6CEC7F173+4015811]
+	GetHandleVerifier [0x00007FF6CE9547D6+695590]
+	(No symbol) [0x00007FF6CE830CE8]
+	(No symbol) [0x00007FF6CE82CF34]
+	(No symbol) [0x00007FF6CE82D062]
+	(No symbol) [0x00007FF6CE81D3A3]
+	BaseThreadInitThunk [0x00007FFC1A26257D+29]
+	RtlUserThreadStart [0x00007FFC1A7CAA58+40]
+ 
+-------------------------------------
+[2023-11-30 10:05:39.152658] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/emami-owl-9a691086 | length of educations: 0 | length of experience: 2 
+-------------------------------------
+[2023-11-30 17:22:10.591991] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/emami-owl-9a691086 | length of educations: 0 | length of experience: 2 
+-------------------------------------

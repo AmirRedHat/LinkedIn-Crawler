@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "601b4126-b89d-4ef4-9b68-023269f6728e",
+		"name": "LinkedinCrawler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15445071"
+	},
+	"item": [
+		{
+			"name": "token/obtain",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "amir",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "python",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/obtain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						"obtain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linkedin-user/all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAxMjA1MDgwLCJpYXQiOjE3MDEyMDQ3ODAsImp0aSI6ImQ2NGM3MmNkMWI3MzRkNTg5OWY1ZDkzZTEzZjFlMjg5IiwidXNlcl9pZCI6MX0.YLaetjNwtosPTtXc10rcTioWnW8bCSYgH64OJEI4DYs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/linkedin-user/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"linkedin-user",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "token/refresh",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "refresh",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMTI4OTgxNCwiaWF0IjoxNzAxMjAzNDE0LCJqdGkiOiI1ODY5OWRlODU0ZmI0NWI1YjRjMTBhZWMzMTY1NTExNiIsInVzZXJfaWQiOjJ9.7zJjbSs5wCClE8mPCzYWglQ429Om8EdRYPoVAhCSZMg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/refresh",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linkedin-user/{id}",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAxMjA0MDM3LCJpYXQiOjE3MDEyMDM3MzcsImp0aSI6IjNmMTRjNzlhYmJhODRkZjE4OGViNjhiNGUzM2RiZWNmIiwidXNlcl9pZCI6MX0.jAmpf3vnK12Akp9EeE523i8Owes8qUzyIM_gz754oKQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/linkedin-user/170",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"linkedin-user",
+						"170"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linkedin-user/detail/{id}",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAxMjA1MDgwLCJpYXQiOjE3MDEyMDQ3ODAsImp0aSI6ImQ2NGM3MmNkMWI3MzRkNTg5OWY1ZDkzZTEzZjFlMjg5IiwidXNlcl9pZCI6MX0.YLaetjNwtosPTtXc10rcTioWnW8bCSYgH64OJEI4DYs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/linkedin-user/detail/171",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"linkedin-user",
+						"detail",
+						"171"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linkedin-user/detail/all",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAxMjE1NzQ0LCJpYXQiOjE3MDEyMTU0NDQsImp0aSI6ImUwNDFhM2RjM2MwZDQ0YTdhMjk4OWJlYzVkMGIyNzZlIiwidXNlcl9pZCI6MX0.Utlx0oMGPgJK5JL_pGzMvcbyAjrhi-VKSDU6jBPD2N0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/linkedin-user/detail/all",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"linkedin-user",
+						"detail",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linkedin-user/key-filter/{key}",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAxMjE3NjE0LCJpYXQiOjE3MDEyMTczMTQsImp0aSI6IjlkNmIwODQwOThmNDRmYjlhOGUwZjNkMTQwNjMwMTA5IiwidXNlcl9pZCI6MX0.MOz_iMP0w5rYP51KyK0PBJPeTC0lN8NL72IEsH6V2so",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/linkedin-user/key-filter/forex",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"linkedin-user",
+						"key-filter",
+						"forex"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

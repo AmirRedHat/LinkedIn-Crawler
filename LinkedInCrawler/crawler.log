@@ -1,0 +1,50 @@
+[2023-11-29 22:45:55.091084] [ERROR] error in second try block | error: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=119.0.6045.160)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BED882B2+55298]
+	(No symbol) [0x00007FF7BECF5E02]
+	(No symbol) [0x00007FF7BEBB05AB]
+	(No symbol) [0x00007FF7BEBF175C]
+	(No symbol) [0x00007FF7BEBF18DC]
+	(No symbol) [0x00007FF7BEBE819C]
+	(No symbol) [0x00007FF7BEC120EF]
+	(No symbol) [0x00007FF7BEBE80CF]
+	(No symbol) [0x00007FF7BEC122C0]
+	(No symbol) [0x00007FF7BEC2AAA4]
+	(No symbol) [0x00007FF7BEC11E83]
+	(No symbol) [0x00007FF7BEBE670A]
+	(No symbol) [0x00007FF7BEBE7964]
+	GetHandleVerifier [0x00007FF7BF100AAB+3694587]
+	GetHandleVerifier [0x00007FF7BF15728E+4048862]
+	GetHandleVerifier [0x00007FF7BF14F173+4015811]
+	GetHandleVerifier [0x00007FF7BEE247D6+695590]
+	(No symbol) [0x00007FF7BED00CE8]
+	(No symbol) [0x00007FF7BECFCF34]
+	(No symbol) [0x00007FF7BECFD062]
+	(No symbol) [0x00007FF7BECED3A3]
+	BaseThreadInitThunk [0x00007FFDA567257D+29]
+	RtlUserThreadStart [0x00007FFDA68EAA58+40]
+ 
+-------------------------------------
+[2023-11-29 22:46:23.363629] [INFO] Search process successfuly completed | keyword: python 
+-------------------------------------
+[2023-11-29 22:46:40.375740] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/seyedmm021?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACgk_mkBzaDjntz1qDJou06A5lDvSIlWEvA | length of educations: 1 | length of experience: 4 
+-------------------------------------
+[2023-11-29 22:47:04.501748] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/imanashoorii?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACz9RyQBmFKQN5Fuoy448szrIBE3Oeyx44A | length of educations: 2 | length of experience: 6 
+-------------------------------------
+[2023-11-29 22:47:24.471545] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/thisiskarimi?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC2hSdwBifbX4YPstpccroGScUOAKLS8QUo | length of educations: 1 | length of experience: 4 
+-------------------------------------
+[2023-11-29 22:48:01.293283] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/amirhsad?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABIJpn0B89lGmYjv-H6yiZlRmTYAAzZ3xEI | length of educations: 0 | length of experience: 3 
+-------------------------------------
+[2023-11-29 22:48:25.994323] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/hadi-farhadi-a6004738?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAfWOSgBnNzsOD-GYWJ5oesJTSZBPiBzv4s | length of educations: 2 | length of experience: 7 
+-------------------------------------
+[2023-11-29 22:48:48.793672] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/mehrdadrafiei?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABW1_EIBiQtdPGFkkLU_bgEXO3GEmnZ9Zz0 | length of educations: 2 | length of experience: 5 
+-------------------------------------
+[2023-11-29 22:49:15.052330] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/saeedeh-moghaddas-b3b21b244?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADyLeZ8B_NyQL8U4Jq9ZY1qLMEMmMq-C5HQ | length of educations: 0 | length of experience: 6 
+-------------------------------------
+[2023-11-29 22:49:43.907764] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/elham-mohammadi-0318b6146?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACNfY6UB14OJ43mAMy-dTzkNBu6GsmzScL8 | length of educations: 2 | length of experience: 5 
+-------------------------------------
+[2023-11-29 22:50:02.712291] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/jinus-b-225529205?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADQ5q_0BPkwPhyCyJeivvvYQE-KTdvUAGXQ | length of educations: 2 | length of experience: 4 
+-------------------------------------
+[2023-11-29 22:50:15.323818] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/maryam-ostovar?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADV2-9sBI-WGuaQThP3KX7BuWlmUcjk-IRw | length of educations: 0 | length of experience: 0 
+-------------------------------------
