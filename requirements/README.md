@@ -32,3 +32,8 @@ This command will install python libraries and check crawler dependencies.
 - You can update cookie.json manually 
 - Developers can test modules using test functions using pytest library (/LinkedinCrawler/utils/test/test_crawler.py)
 - API Documentation is available on LinkedInCrawler/requirements/LinkedinCrawler.postman_collection.json
+
+
+# Database 
+In this project database engine is `sqlite` but because of django-database-management you can simply change it to MYSQL or PostgreSQL
+- To do that you need to update settings.py in  `/LinkedInCrawler/LinkedInCrawler/LinkedInCrawler/settings.py` the variable of `DATABASES` and change engine to MYSQL.

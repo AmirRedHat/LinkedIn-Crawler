@@ -48,3 +48,81 @@ Stacktrace:
 -------------------------------------
 [2023-11-29 22:50:15.323818] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/maryam-ostovar?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADV2-9sBI-WGuaQThP3KX7BuWlmUcjk-IRw | length of educations: 0 | length of experience: 0 
 -------------------------------------
+[2023-12-03 21:23:25.903394] [ERROR] error in second try block | error: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F0D282B2+55298]
+	(No symbol) [0x00007FF6F0C95E02]
+	(No symbol) [0x00007FF6F0B505AB]
+	(No symbol) [0x00007FF6F0B9175C]
+	(No symbol) [0x00007FF6F0B918DC]
+	(No symbol) [0x00007FF6F0B8819C]
+	(No symbol) [0x00007FF6F0BB20EF]
+	(No symbol) [0x00007FF6F0B880CF]
+	(No symbol) [0x00007FF6F0BB22C0]
+	(No symbol) [0x00007FF6F0BCAAA4]
+	(No symbol) [0x00007FF6F0BB1E83]
+	(No symbol) [0x00007FF6F0B8670A]
+	(No symbol) [0x00007FF6F0B87964]
+	GetHandleVerifier [0x00007FF6F10A0AAB+3694587]
+	GetHandleVerifier [0x00007FF6F10F728E+4048862]
+	GetHandleVerifier [0x00007FF6F10EF173+4015811]
+	GetHandleVerifier [0x00007FF6F0DC47D6+695590]
+	(No symbol) [0x00007FF6F0CA0CE8]
+	(No symbol) [0x00007FF6F0C9CF34]
+	(No symbol) [0x00007FF6F0C9D062]
+	(No symbol) [0x00007FF6F0C8D3A3]
+	BaseThreadInitThunk [0x00007FF899D3257D+29]
+	RtlUserThreadStart [0x00007FF89AA6AA58+40]
+ 
+-------------------------------------
+[2023-12-03 21:23:26.537157] [ERROR] error in second try block | error: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=119.0.6045.200)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F0D282B2+55298]
+	(No symbol) [0x00007FF6F0C95E02]
+	(No symbol) [0x00007FF6F0B505AB]
+	(No symbol) [0x00007FF6F0B9175C]
+	(No symbol) [0x00007FF6F0B918DC]
+	(No symbol) [0x00007FF6F0B8819C]
+	(No symbol) [0x00007FF6F0BB20EF]
+	(No symbol) [0x00007FF6F0B880CF]
+	(No symbol) [0x00007FF6F0BB22C0]
+	(No symbol) [0x00007FF6F0BCAAA4]
+	(No symbol) [0x00007FF6F0BB1E83]
+	(No symbol) [0x00007FF6F0B8670A]
+	(No symbol) [0x00007FF6F0B87964]
+	GetHandleVerifier [0x00007FF6F10A0AAB+3694587]
+	GetHandleVerifier [0x00007FF6F10F728E+4048862]
+	GetHandleVerifier [0x00007FF6F10EF173+4015811]
+	GetHandleVerifier [0x00007FF6F0DC47D6+695590]
+	(No symbol) [0x00007FF6F0CA0CE8]
+	(No symbol) [0x00007FF6F0C9CF34]
+	(No symbol) [0x00007FF6F0C9D062]
+	(No symbol) [0x00007FF6F0C8D3A3]
+	BaseThreadInitThunk [0x00007FF899D3257D+29]
+	RtlUserThreadStart [0x00007FF89AA6AA58+40]
+ 
+-------------------------------------
+[2023-12-03 21:23:34.067725] [INFO] Search process successfuly completed | keyword: ui 
+-------------------------------------
+[2023-12-03 21:23:47.937478] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/zineh-ziaraty?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAA5qy9UBPdr4jZ53o2FzCHJm7XUZRt9xVlI | length of educations: 1 | length of experience: 7 
+-------------------------------------
+[2023-12-03 21:24:00.115232] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/reza-ghiasvand-505382281?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAESTjFUBN7-9NC3C2sgnh618ZvIGPzwJKx4 | length of educations: 1 | length of experience: 1 
+-------------------------------------
+[2023-12-03 21:24:32.146586] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/melika-mehrabi-19bb06286?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEWTTYcBbPXAvE3bWeEHIU3jUZz60wEK4R0 | length of educations: 0 | length of experience: 1 
+-------------------------------------
+[2023-12-03 21:25:04.225068] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/mahshid-zahedi-885807258?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD961CUBMP7jVY8YJJO6gb-SzN2MqtkNggk | length of educations: 1 | length of experience: 0 
+-------------------------------------
+[2023-12-03 21:25:25.440142] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/niloofar-kadkhodaee-21b1a715a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACYdhncBU94daIhq9gRkEeVl-H00fFhh6rE | length of educations: 2 | length of experience: 5 
+-------------------------------------
+[2023-12-03 21:25:54.964484] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/mostafa-jalili-7b8b64192?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC1gqXwBMdGLL0m5MxHiZDJRlO2nDBMGQzo | length of educations: 0 | length of experience: 3 
+-------------------------------------
+[2023-12-03 21:26:07.639931] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/samira-sanaeifar?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABtlKtcBazZCqaFzWT2PeNSs9tyRTdeWsbo | length of educations: 1 | length of experience: 2 
+-------------------------------------
+[2023-12-03 21:26:19.523458] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/mehranbarzegar93?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD7obhYBLfMCV22nTv6on0ta4A_JbLXrS04 | length of educations: 0 | length of experience: 2 
+-------------------------------------
+[2023-12-03 21:26:34.511278] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/amin-hamedfar-66a776205?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADRCxzIBWr1Bxfgs5Egr-4CN8pqjZDQmW7s | length of educations: 1 | length of experience: 1 
+-------------------------------------
+[2023-12-03 21:26:50.340523] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/samira-mortazavi-9b9312179?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACo6GB0B0S2jDgl-PI3Idbj3SRqnplr0kOQ | length of educations: 1 | length of experience: 2 
+-------------------------------------
