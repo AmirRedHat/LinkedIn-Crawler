@@ -37,3 +37,14 @@ This command will install python libraries and check crawler dependencies.
 # Database 
 In this project database engine is `sqlite` but because of django-database-management you can simply change it to MYSQL or PostgreSQL
 - To do that you need to update settings.py in  `/LinkedInCrawler/LinkedInCrawler/LinkedInCrawler/settings.py` the variable of `DATABASES` and change engine to MYSQL.
+The configuration of MYSQL database is: 
+"""
+'default': {
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'DB_NAME',
+        'USER': 'DB_USER',
+        'PASSWORD': 'DB_PASSWORD',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+"""
