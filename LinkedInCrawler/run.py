@@ -9,7 +9,7 @@ parser.add_argument("--to-json", dest="to_json", default="false", help="store co
 args = parser.parse_args()
 
 if args.crawl:
-   crawler.main(args.crawl, to_json=to_json)
+   crawler.main(args.crawl)
 
 if args.to_json and args.to_json != "false":
-   crawler.exportDetailsAsJson(args.to_json)
+   crawler.exportDetailsAsJson("./detail.json")

@@ -19,7 +19,10 @@ This command will install python libraries and check crawler dependencies.
 
 
 # How to Run
-- To starting crawl process just type "python run.py --crawl [your-keyword] --to-json [if-you-want-to-save-as-json]" in your terminal (root directory) and crawler engine will start the process of crawling with config.py and settings.py variables.
+- To starting crawl process just type "python run.py --crawl [your-keyword]" in your terminal (root directory) and crawler engine will start the process of crawling with config.py and settings.py variables.
+
+- To get json file from crawling engine you just need to type "python run.py --to-json true" and after than data will saved in 
+`/LinkedinCrawler/` directory.
 
 - To run django server just type "python manage.py runserver" in your terminal and then server will be reachable on http://localhost:8000 (if you want to deploy it on domain you can use cyberpanel or cpanel tools to config dns).
 
