@@ -1,6 +1,6 @@
 
-EMAIL = "amir.ch.charehei1382@gmail.com"
-PASSWORD = "pythonredhat"
-KEYWORD = "forex"
+EMAIL = "[Your Email]"
+PASSWORD = "[Your LinkedIn Account Password]"
+KEYWORD = "forex" # For example
 OUTPUT = "./output.json"
 PROFILE_OUTPUT = "./profile_output.json"
