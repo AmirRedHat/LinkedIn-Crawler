@@ -1,4 +1,4 @@
-from selenium.webdriver import Chrome, ChromeOptions
+from selenium.webdriver import Chrome, ChromeOptions, ChromeService
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -37,7 +37,8 @@ def getDriver() -> Chrome:
    # to use tool on ubuntu server (reqirement packages must be install)
    # options.add_argument('--no-sandbox')
    # options.add_argument("--headless")
-   driver = Chrome(os.path.abspath(DRIVER_PATH), options=options)
+   chromeService = ChromeService(executable_path=os.path.abspath(DRIVER_PATH))
+   driver = Chrome(service=chromeService, options=options)
    return driver
 
 

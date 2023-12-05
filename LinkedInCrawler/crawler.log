@@ -126,3 +126,59 @@ Stacktrace:
 -------------------------------------
 [2023-12-03 21:26:50.340523] [INFO] fetchin profile detail successfuly completed ! | profile_link: https://www.linkedin.com/in/samira-mortazavi-9b9312179?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACo6GB0B0S2jDgl-PI3Idbj3SRqnplr0kOQ | length of educations: 1 | length of experience: 2 
 -------------------------------------
+[2023-12-05 16:54:16.122635] [ERROR] error in second try block | error: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=119.0.6045.200); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF77B0082B2+55298]
+	(No symbol) [0x00007FF77AF75E02]
+	(No symbol) [0x00007FF77AE305AB]
+	(No symbol) [0x00007FF77AE7175C]
+	(No symbol) [0x00007FF77AE718DC]
+	(No symbol) [0x00007FF77AE6819C]
+	(No symbol) [0x00007FF77AE920EF]
+	(No symbol) [0x00007FF77AE680CF]
+	(No symbol) [0x00007FF77AE922C0]
+	(No symbol) [0x00007FF77AEAAAA4]
+	(No symbol) [0x00007FF77AE91E83]
+	(No symbol) [0x00007FF77AE6670A]
+	(No symbol) [0x00007FF77AE67964]
+	GetHandleVerifier [0x00007FF77B380AAB+3694587]
+	GetHandleVerifier [0x00007FF77B3D728E+4048862]
+	GetHandleVerifier [0x00007FF77B3CF173+4015811]
+	GetHandleVerifier [0x00007FF77B0A47D6+695590]
+	(No symbol) [0x00007FF77AF80CE8]
+	(No symbol) [0x00007FF77AF7CF34]
+	(No symbol) [0x00007FF77AF7D062]
+	(No symbol) [0x00007FF77AF6D3A3]
+	BaseThreadInitThunk [0x00007FFAF32D257D+29]
+	RtlUserThreadStart [0x00007FFAF3F2AA58+40]
+ 
+-------------------------------------
+[2023-12-05 16:54:16.218855] [ERROR] error in second try block | error: Message: no such element: Unable to locate element: {"method":"tag name","selector":"img"}
+  (Session info: chrome=119.0.6045.200); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF77B0082B2+55298]
+	(No symbol) [0x00007FF77AF75E02]
+	(No symbol) [0x00007FF77AE305AB]
+	(No symbol) [0x00007FF77AE7175C]
+	(No symbol) [0x00007FF77AE718DC]
+	(No symbol) [0x00007FF77AE6819C]
+	(No symbol) [0x00007FF77AE920EF]
+	(No symbol) [0x00007FF77AE680CF]
+	(No symbol) [0x00007FF77AE922C0]
+	(No symbol) [0x00007FF77AEAAAA4]
+	(No symbol) [0x00007FF77AE91E83]
+	(No symbol) [0x00007FF77AE6670A]
+	(No symbol) [0x00007FF77AE67964]
+	GetHandleVerifier [0x00007FF77B380AAB+3694587]
+	GetHandleVerifier [0x00007FF77B3D728E+4048862]
+	GetHandleVerifier [0x00007FF77B3CF173+4015811]
+	GetHandleVerifier [0x00007FF77B0A47D6+695590]
+	(No symbol) [0x00007FF77AF80CE8]
+	(No symbol) [0x00007FF77AF7CF34]
+	(No symbol) [0x00007FF77AF7D062]
+	(No symbol) [0x00007FF77AF6D3A3]
+	BaseThreadInitThunk [0x00007FFAF32D257D+29]
+	RtlUserThreadStart [0x00007FFAF3F2AA58+40]
+ 
+-------------------------------------
