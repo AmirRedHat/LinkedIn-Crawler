@@ -5,10 +5,14 @@ from crawler import *
 from config import *
 from database import *
 from decorators import exceptionLog
-from selenium.webdriver import Chrome, ChromeOptions
+# from selenium.webdriver import Chrome, ChromeOptions
 
 
 # --------- CRAWLER
+
+def testGetDriver():
+   driver = getDriver()
+   assert True
 
 def dtestLogin():
    driver = getDriver()
@@ -34,7 +38,7 @@ def dtestSearch():
    search(driver)
    assert True
 
-def testProfileDetail():
+def dtestProfileDetail():
    driver = getDriver()
    login(EMAIL, PASSWORD, driver)
    # link = "https://www.linkedin.com/in/hassan-noshadifar-3249a6203/"

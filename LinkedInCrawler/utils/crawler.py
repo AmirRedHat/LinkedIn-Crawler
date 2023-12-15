@@ -1,4 +1,4 @@
-from selenium.webdriver import Chrome, ChromeOptions, ChromeService
+from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
@@ -20,6 +20,8 @@ import argparse
 
 LOGIN_URL = "https://www.linkedin.com/uas/login"
 SEARCH_KEYWORD = "https://www.linkedin.com/search/results/people/?keywords=%s&page=%s"
+HIGHER_120_VERSION = "https://googlechromelabs.github.io/chrome-for-testing/"
+LOWER_120_VERSION = "https://chromedriver.chromium.org/downloads"
 RETRY = 3
 
 
@@ -31,14 +33,26 @@ def getDriver() -> Chrome:
       raise Exception("[+] Connection Issue")
 
 
-
+   path = os.path.abspath(DRIVER_PATH)
    options = ChromeOptions()
    options.add_argument("--disable-gpu")
    # to use tool on ubuntu server (reqirement packages must be install)
    # options.add_argument('--no-sandbox')
    # options.add_argument("--headless")
-   chromeService = ChromeService(executable_path=os.path.abspath(DRIVER_PATH))
-   driver = Chrome(service=chromeService, options=options)
+   
+   # chromeService = ChromeService(executable_path=)
+   # driver = Chrome(service=chromeService, options=options)
+   
+   try:
+      driver = Chrome(executable_path=path, options=options)
+   except Exception as e:
+      print("[ERROR] %s" % e)
+      print("[!] Maybe your chrome version and driver version not matched !")
+      print("[-] Higher 120 version")
+      print(HIGHER_120_VERSION)
+      print("[-] Lower 120 version")
+      print(LOWER_120_VERSION)
+      
    return driver
 
 
