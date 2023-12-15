@@ -1,2 +1,4 @@
 env/
 requirements/*.exe
+__pycache__
+.idea
