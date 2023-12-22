@@ -15,7 +15,6 @@ from config import *
 from decorators import exceptionLog
 from log import writeLog
 from database import *
-import argparse
 
 
 LOGIN_URL = "https://www.linkedin.com/uas/login"
@@ -28,7 +27,7 @@ RETRY = 3
 def getDriver() -> Chrome:
    # check connection
    try:
-      response = requests.get("https://google.com")
+      requests.get("https://google.com")
    except:
       raise Exception("[+] Connection Issue")
 
@@ -169,7 +168,7 @@ def storeProfileDetail(data: dict):
 
 
 def storeCookie(cookies: dict):
-   """ 
+   """
       store cookies in json file | after login process the cookies are useful
       :param cookies: dict = the cookies that got from driver after login process
    """
@@ -231,7 +230,7 @@ def getExperiences(profile_link: str, driver: Chrome):
       details = []
       splited = li.text.split("\n")[:12]
       if "Skills" in li.text and len(splited) <= 2:
-         continue 
+         continue
 
       for detail in splited:
          detail = detail.strip()
@@ -243,7 +242,7 @@ def getExperiences(profile_link: str, driver: Chrome):
          company = details[1]
          date = details[3] if "time" in details[2].lower() else details[2]
          if "-" not in date and "·" not in date:
-            continue 
+            continue
 
          exp_detail = {
             "position": position,
