@@ -1,4 +1,4 @@
-from utils import crawler
+from utils import crawler,config
 import json
 import argparse
 
@@ -13,10 +13,11 @@ args = parser.parse_args()
 if args.crawl:
    crawler.main(args.crawl)
 
-elif args.single_crawl:
+elif args.profile_link:
     profile_link = args.profile_link
     if profile_link:
         driver = crawler.getDriver()
+        crawler.login(config.EMAIL, config.PASSWORD, driver)
         detail = crawler.getProfileDetail(profile_link, driver, close_driver=True)
         if args.to_json and args.to_json != "false":
             with open(args.to_json, "w") as _file:
