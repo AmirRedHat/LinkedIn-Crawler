@@ -108,7 +108,7 @@ def search(driver: Chrome, keyword: str = KEYWORD) -> list:
 
       sleep(2)
       try:
-         users = driver.find_elements(By.CLASS_NAME, "entity-result__item")
+         users = driver.find_elements(By.CLASS_NAME, "reusable-search__result-container")
          page += 1
          for user in users:
             user_detail = user.text.split("\n")
